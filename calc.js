@@ -19,7 +19,7 @@ buttons.forEach((button) => {
                string = string.slice(0, -1);
                display.value = string;
           } else {
-               string += e.target.innerHTML;
+               string += e.target.innerHTML;//string = string + e.target.innerHTML; 
                display.value = string;
           }
      });
